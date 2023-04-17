@@ -9,77 +9,100 @@
 
 <body>
 
-  <main id="main">
-    <div id="header">
-      <h1 id="title">
+  <div id="main">
+    <div class="content">
+    <div class="header">
+      <h1 class="title">
         App Development Survey Form
       </h1>
       <p id="description">Please fill in the form to indicate the kind of Apps you prefer.</p>
     </div>
 
     <div id="form">
-     <form  id="survey-form" action="">
-          <div class="form-control">
-             <label id="name-label" for="name">Name: </label>
-             <input type="text" id="name" value="" placeholder="Enter your name" required>
-          </div>
+      <form id="survey-form" action="">
+        
+       
+        
+        <div class="form-group">
+          <label id="name-label" for="name">Name: </label>
+          <input class="form-control" type="text" id="name" value="" placeholder="Enter your name" required>
+        </div>
 
-          <div class="form-control">
-            <label id="email-label" for="email">Email: </label>
-            <input type="email" id="email" value="" placeholder="Enter your email" required>
-         </div>
+      
 
-         <div class="form-control">
+      
+        <div class="form-group">
+          <label id="email-label" for="email">Email: </label>
+          <input class="form-control" type="email" id="email" value="" placeholder="Enter your email" required>
+        </div>
+      
+
+
+      
+        <div class="form-group">
           <label id="number-label" for="number">Number: </label>
-          <input type="number" id="number" value="" placeholder="Enter number" min="0" max="100" required>
-       </div>
+          <input class="form-control" type="number" id="number" value="" placeholder="Enter number" min="0" max="100" required>
+        </div>
+       
 
 
-       <div class="form-control">
-        <label id="dropdown-label" for="platform">Platform: </label>
-        <select name="platform" id="platform">
-          <option value="android">Android</option>
-          <option value="ios">IOS</option>
-          <option value="Windows">Windows</option>
-          <option value="debian">Debian</option>
-        </select>
-     </div>
+        
+        <div class="form-group">
+          <label id="dropdown-label" for="platform">Platform: </label>
+          <select class="form-control" name="platform" id="platform">
+            <option value="android">Android</option>
+            <option value="ios">IOS</option>
+            <option value="Windows">Windows</option>
+            <option value="debian">Debian</option>
+          </select>
+        </div>
 
-       <div class="form-control">
-        <label id="dropdown-label" for="dropdown">Languages: </label>
-        <select name="languages" id="dropdown">
-          <option value="javascript">Javascript</option>
-          <option value="java">Java</option>
-          <option value="c-sharp">C#</option>
-          <option value="go">Go</option>
-        </select>
-     </div>
-     <div class="form-group">
-      <input type="radio" name="name" class="input-radio" id="radio-name">
-     <label for="radio-name" id="radio-name-label">Dark Theme</label>
-     <br>
-     <input type="radio" name="name" class="input-radio" id="radio-name">
-     <label for="radio-name" id="radio-name-label">Light Theme</label>
-     </div>
-    <div class="form-group">
-      <input type="checkbox" id="top-nav" name="top-nav" value="top-nav">
-     <label for="top-nav">Top Navigation Bar</label><br>
-     <input type="checkbox" id="bottom-nav" name="bottom-nav" value="bottom-nav">
-     <label for="bottom-nav">Bottom Navigation Bar</label><br>
-     <input type="checkbox" id="left-nav" name="left-nav" value="left-nav">
-     <label for="left-nav">Left Navigation Bar</label><br>
-     <input type="checkbox" id="right-nav" name="right-nav" value="right-nav">
-     <label for="right-nav">Right Navigation Bar</label><br>
-     </div>
-     <div class="form-group">
-      <label for="comments">Comments</label>
-     <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
-     </div>
-     <div class="form-group">
-      <button id="submit" type="submit">Submit</button>
-     </div>
-     </form>
+       
 
+          
+        <div class="form-group">
+          <label id="dropdown-label" for="dropdown">Languages: </label>
+          <select class="form-control" name="languages" id="dropdown">
+            <option value="javascript">Javascript</option>
+            <option value="java">Java</option>
+            <option value="c-sharp">C#</option>
+            <option value="go">Go</option>
+          </select>
+        </div>
+        
+
+       
+
+        <div class="form-group">
+          <input type="radio" name="name" value="dark" class="input-radio" id="radio-name">
+          <label for="radio-name" id="radio-name-label">Dark Theme</label>
+          <br>
+          <input type="radio" name="name" value="light" class="input-radio" id="radio-name">
+          <label for="radio-name" id="radio-name-label">Light Theme</label>
+        </div>
+
+        <div class="form-group">
+          <input type="checkbox" id="top-nav" name="top-nav" value="top-nav">
+          <label for="top-nav">Top Navigation Bar</label><br>
+          <input type="checkbox" id="bottom-nav" name="bottom-nav" value="bottom-nav">
+          <label for="bottom-nav">Bottom Navigation Bar</label><br>
+          <input type="checkbox" id="left-nav" name="left-nav" value="left-nav">
+          <label for="left-nav">Left Navigation Bar</label><br>
+          <input type="checkbox" id="right-nav" name="right-nav" value="right-nav">
+          <label for="right-nav">Right Navigation Bar</label><br>
+        </div>
+
+
+        <div class="form-group">
+          <label for="comments">Comments</label>
+          <textarea class="form-control" name="comments" id="comments" cols="30" rows="10"></textarea>
+        </div>
+        
+        <div class="form-group">
+          <button id="submit" type="submit">Submit Now</button>
+        </div>
+      </form>
+    </div>
     </div>
 
 
