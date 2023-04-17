@@ -72,13 +72,23 @@ body {
     border: 1px solid #ddd5d5;
 }
 
-#survey-form button {
+/* #survey-form button {
     font-family: cursive;
     font-size: 1em;
     padding: 1em 2em;
     border-radius: 5px;
     border: none;
 
-}
+} */
 
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background:green;
+    color: darkblue;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(75, 75, 199);
 
+  }
