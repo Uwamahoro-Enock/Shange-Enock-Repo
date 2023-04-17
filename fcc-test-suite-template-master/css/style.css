@@ -2,8 +2,10 @@
     display: block;
     width: 100%;
     padding: 0.75rem;
-    background: var(--color-green);
-    color: inherit;
-    border-radius: 2px;
+    background:green;
+    color: darkblue;
+    border-radius: 20px;
     cursor: pointer;
+    background-color: rgb(75, 75, 199);
+
   }
